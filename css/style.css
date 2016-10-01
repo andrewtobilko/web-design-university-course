@@ -1,0 +1,118 @@
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url("../fonts/SourceSansPro-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Source Sans Pro Light";
+    src: url("../fonts/SourceSansPro-Light.otf") format("opentype");
+}
+
+body {
+    font-family: "Source Sans Pro", sans-serif;
+    color: #605f5f;
+    font-weight: 400;
+    background: #fbfbfb;
+}
+.specials {
+    height: 690px;
+}
+.row .main-collection {
+    height: 690px;
+}
+.row .first-row,
+.row .second-row {
+    height: 50%;
+}
+.row .first-row > div,
+.row .second-row > div {
+    height: 100%;
+}
+.other-specials {
+    height: 690px;
+}
+.offer {
+    width: 100%;
+    height: calc(100% - 20px);
+    margin: 10px auto;
+    background: #EBEBEB;
+    cursor: pointer;
+}
+.offer img {
+    height: 100%;
+    width: 100%;
+}
+
+
+/* languages > */
+
+.langs .right-side {
+    text-align: right;
+}
+.langs {
+    text-transform: uppercase;
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+    line-height: 56px;
+    background-color: #FFF;
+}
+.langs a {
+    font-size: 14px;
+    color: #605f5f;
+}
+.langs .left-side a {
+    margin-right: 10px;
+}
+.langs .right-side a {
+    margin-left: 10px;
+}
+.langs a.selected {
+    font-weight: 800;
+}
+.langs a:hover {
+    text-decoration: none;
+    color: #2ba08b;
+}
+/* languages < */
+
+
+/* header > */
+.header {
+    display: table;
+    width: 100%;
+}
+.header .login {
+    padding-left: 15px;
+    display: table-cell;
+    vertical-align: middle;
+    text-transform: uppercase;
+    font-family: "Source Sans Pro Light", sans-serif;
+    font-size: 14px;
+    height: 228px;
+}
+.header .login .tabs a {
+    line-height: 3em;
+    padding-right: 15px;
+    color: #605f5f;
+}
+.header .login .tabs a:hover {
+    text-decoration: none;
+    color: #2ba08b;
+}
+
+.header .login .hotline .tel {
+    font-weight: 800;
+}
+
+.header .logo {
+    text-align: center;
+}
+
+.header .search {
+    background: red;
+}
+
+.header .search .tabs .item i {
+    font-size: 20px;
+}
+
+/* header < */
