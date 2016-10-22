@@ -167,3 +167,17 @@ body {
 .col-md-4, .col-md-3 {
     padding: 0 !important;
 }
+
+/* footer > */
+
+.footer .payment-systems {
+    display: flex;
+    justify-content: center;
+}
+
+.footer .payment-systems .payment-system-wrapper {
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+/* footer < */
