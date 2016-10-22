@@ -1,5 +1,10 @@
+# throw out the project specific settings
 .idea/
 *.iml
 
+# remove npm config stuff
 typings/
 node_modules/
+
+# avoid .js and .js.map files
+app/*.js*
