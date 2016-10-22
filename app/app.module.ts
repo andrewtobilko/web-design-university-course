@@ -1,4 +1,5 @@
 import {ApplicationComponent} from "./app.component";
+import {NgModule} from "@angular/core/src/metadata/ng_module";
 
 @NgModule({
     declarations: [
@@ -6,4 +7,8 @@ import {ApplicationComponent} from "./app.component";
     ],
     bootstrap: [ApplicationComponent]
 })
-export class ApplicationModule {}
+export class ApplicationModule {
+
+
+
+}

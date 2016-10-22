@@ -1,2 +1,5 @@
 .idea/
 *.iml
+
+typings/
+node_modules/

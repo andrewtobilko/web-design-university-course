@@ -1,1 +1,9 @@
-export class ApplicationComponent {}
+import { Component } from '@angular/core';
+
+@Component({
+
+})
+export class ApplicationComponent {
+
+
+}
