@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import {Component} from "@angular/core";
+import {Product} from "./product";
 
 @Component({
     selector: 'my-application',
@@ -6,5 +7,6 @@ import { Component } from '@angular/core';
 })
 export class ApplicationComponent {
 
+    products: Product[] = [];
 
 }
