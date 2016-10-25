@@ -5,8 +5,4 @@ import {Product} from "./product";
     selector: 'my-application',
     templateUrl: 'index.html'
 })
-export class ApplicationComponent {
-
-    products: Product[] = [];
-
-}
+export class ApplicationComponent {}
