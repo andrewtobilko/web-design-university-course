@@ -114,9 +114,11 @@
 
 <!-- content -->
 <div class="row content">
-    <div class="products">
-        <div class="product"></div>
-        <div class="product active"></div>
+    <div class="products" template="ngFor let product of products">
+        <div class="product">
+        <p class="title">Title: {{product.getTitle() }}</p>
+        <p class="description">Description: {{product.getDescription() }}</p>
+        </div>
     </div>
     <div class="load-more"></div>
 </div>
