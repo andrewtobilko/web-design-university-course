@@ -9,7 +9,4 @@ import {BrowserModule} from "@angular/platform-browser";
     ],
     bootstrap: [ApplicationComponent]
 })
-export class ApplicationModule {
-
-
-}
+export class ApplicationModule {}

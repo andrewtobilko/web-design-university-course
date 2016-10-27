@@ -180,4 +180,20 @@ body {
     padding: 20px 10px;
 }
 
+.footer .items {
+    display: flex;
+    width: 100%;
+}
+
+.footer .items .item {
+    display: inline-block;
+}
+
 /* footer < */
+
+.line {
+    height: 1px;
+    margin: 50px 0;
+    width: 100%;
+    background: rgb(214, 214, 214);
+}
