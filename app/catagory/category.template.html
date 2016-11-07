@@ -1,6 +1,12 @@
 <div class="category">
+
     <div class="header">
-        <h1 class="title">category name</h1>
+        <h1 class="title">{{ category.title }}</h1>
     </div>
-    products
+
+    <div class="product" *ngFor="let product of products">
+        <p class="title" *ngIf="product.name">{{ product.name }}</p>
+        <p class="description" *ngIf="product.description">{{ product.description }}</p>
+    </div>
+
 </div>
