@@ -1,21 +1,20 @@
 "use strict";
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-var core_1 = require("@angular/core");
+var product_model_1 = require("../product/product.model");
 var CategoryService = (function () {
     function CategoryService() {
     }
-    CategoryService = __decorate([
-        core_1.Injectable, 
-        __metadata('design:paramtypes', [])
-    ], CategoryService);
+    CategoryService.prototype.getProducts = function () {
+        return Promise.resolve([
+            new product_model_1.Product(0, "t1", "d1", 1, "m1"),
+            new product_model_1.Product(1, "t2", "d2", 2, "m2"),
+            new product_model_1.Product(2, "t3", "d3", 3, "m3"),
+            new product_model_1.Product(3, "t4", "d4", 4, "m4"),
+            new product_model_1.Product(4, "t5", "d5", 5, "m5"),
+            new product_model_1.Product(5, "t6", "d6", 6, "m6"),
+            new product_model_1.Product(6, "t7", "d7", 7, "m7"),
+            new product_model_1.Product(7, "t8", "d8", 8, "m8")
+        ]);
+    };
     return CategoryService;
 }());
 exports.CategoryService = CategoryService;

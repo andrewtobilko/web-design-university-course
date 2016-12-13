@@ -1,0 +1,19 @@
+{
+  "name": "web-design-university-course",
+  "authors": [
+    "Andrew Tobilko <andrew.tobilko@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/andrewtobilko/web-design-university-course",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "components-font-awesome": "^4.7.0"
+  }
+}

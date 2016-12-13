@@ -15,16 +15,17 @@ var CategoryController = (function () {
         this.categoryService = categoryService;
     }
     CategoryController.prototype.ngOnInit = function () {
-        /*this.categoryService.getProducts().then(
-            (data) => {},
-            (error) => {}
-        )*/
+        var _this = this;
+        this.categoryService.getProducts().then(function (data) {
+            console.log(data);
+            _this.products = data;
+        }, function (error) { });
     };
     CategoryController = __decorate([
         core_1.Component({
             selector: 'category',
-            templateUrl: "category.template.html",
-            providers: [category_service_1.CategoryService]
+            templateUrl: "category.template.html" /*,
+            providers: [CategoryService]*/
         }), 
         __metadata('design:paramtypes', [category_service_1.CategoryService])
     ], CategoryController);

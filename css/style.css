@@ -230,14 +230,6 @@ body {
 .footer .connect .content .details {
     font-family: "Source Sans Pro Light", sans-serif;
 }
-
-@media screen and (max-width: 768px) {
-    .footer .new-arrivals,
-    .footer .holiday-sales,
-    .specials {
-        display: none;
-    }
-}
 /* footer < */
 
 .line {

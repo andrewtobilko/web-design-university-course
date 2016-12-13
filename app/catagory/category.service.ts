@@ -1,7 +1,6 @@
 import {Injectable} from "@angular/core";
 import {Product} from "../product/product.model";
 
-@Injectable
 export class CategoryService {
 
     getProducts(): Promise<Product[]> {

@@ -4,8 +4,8 @@ import {Product} from "../product/product.model";
 
 @Component({
     selector: 'category',
-    templateUrl: "category.template.html",
-    providers: [CategoryService]
+    templateUrl: "category.template.html"/*,
+    providers: [CategoryService]*/
 })
 export class CategoryController implements OnInit {
 
