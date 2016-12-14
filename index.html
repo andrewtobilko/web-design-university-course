@@ -163,7 +163,8 @@
                     <h3>What would you like you to say to us?</h3>
                 </div>
                 <div class="content">
-                    <input type="text">
+                    <input type="text" (model)="feedback">
+                    <button class="feedback-button" (click)="sendFeedack()" >Send!</button>
                 </div>
             </div>
             <div class="col-xs-6 col-md-3 item our-support">
