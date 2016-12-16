@@ -68,7 +68,7 @@
             <div class="search-bar">
                 <div class="form-group">
                     <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Пошук...">
+                        <input type="text" class="form-control" placeholder="Search...">
                         <div class="input-group-addon"><i class="fa fa-search"></i></div>
                     </div>
                 </div>
@@ -158,14 +158,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xs-6 col-md-6 item holiday-sales">
-                <div class="title">
-                    <h3>What would you like you to say to us?</h3>
-                </div>
-                <div class="content">
-                    <input type="text" (model)="feedback">
-                    <button class="feedback-button" (click)="sendFeedack()" >Send!</button>
-                </div>
+            <div class="col-xs-6 col-md-6 item feedback">
+                <feedback></feedback>
             </div>
             <div class="col-xs-6 col-md-3 item our-support">
                 <div class="title">
